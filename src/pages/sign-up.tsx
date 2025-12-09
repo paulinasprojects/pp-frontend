@@ -1,6 +1,8 @@
+import SignUpForm from "@/components/forms/sign-up-form"
+
 function SignUp() {
   return (
-    <div>SignUp</div>
+    <SignUpForm />
   )
 }
 

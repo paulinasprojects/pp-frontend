@@ -27,7 +27,7 @@ function SignInForm() {
     <div className="flex flex-col mx-20">
       <div className="">
         <h3 className="pt-12 pb-2 text-3xl font-bold text-center">Welcome Back</h3>
-        <p className="text-center">Let’s login into your Wecare account first</p>
+        <p className="text-center">Let&apos;s login into your WeCare account first</p>
         <div>
           <form onSubmit={handleSubmit(onSubmit)} id="sign-in-form">
             <div className="flex flex-col gap-5 mt-10">
