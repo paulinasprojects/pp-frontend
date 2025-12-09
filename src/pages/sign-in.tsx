@@ -1,6 +1,9 @@
+import SignInForm from "@/components/forms/sign-in-form"
+
+
 function SignIn() {
   return (
-    <div>SignIn</div>
+    <SignInForm />
   )
 }
 
