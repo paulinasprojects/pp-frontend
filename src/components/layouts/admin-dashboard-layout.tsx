@@ -1,7 +1,7 @@
-import Sidebar from "@/components/admin-dashboard/sidebar";
-import Navbar from "../navbar";
 import { Outlet } from "react-router-dom";
 import { SidebarProvider } from "@/contexts/sidebar-context";
+import Sidebar from "@/components/admin-dashboard/sidebar";
+import Navbar from "@/components/admin-dashboard/navbar";
 
 const AdminDashboardLayout = () => {
   return (
@@ -10,7 +10,7 @@ const AdminDashboardLayout = () => {
         <Sidebar />
         <div className="flex-1 flex-col overflow-hidden">
           <Navbar />
-          <main className="flex-1 overflow-y-auto p-4 bg-[#e5e6e8]">
+          <main className="flex-1 overflow-y-auto p-4 bg-[#f9fafb]">
             <Outlet />
           </main>
         </div>

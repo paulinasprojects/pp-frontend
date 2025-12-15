@@ -113,8 +113,8 @@ export default function Sidebar() {
         <div className="mt-auto">
           <div className="h-px bg-gray-200 my-3" />
           <motion.div variants={itemVariants}>
-            <a
-              href="/admin/dashboard/settings"
+            <Link
+              to="/admin-dashboard/settings"
               className={cn(
                 "flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-100 transition",
                 isCollapsed ? "justify-center" : "justify-start"
@@ -122,7 +122,7 @@ export default function Sidebar() {
             >
               <Settings className="w-5 h-5" />
               {!isCollapsed && <span className="text-sm">Settings</span>}
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>
